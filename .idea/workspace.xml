@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решен advanced 2">
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решен advanced 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Homework.java" afterDir="false" />
     </list>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657694914983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Решен advanced 3">
+      <created>1657700805317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657700805317</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +125,7 @@
     <MESSAGE value="Решена третья задача" />
     <MESSAGE value="Решен advanced 1" />
     <MESSAGE value="Решен advanced 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решен advanced 2" />
+    <MESSAGE value="Решен advanced 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решен advanced 3" />
   </component>
 </project>

@@ -143,6 +143,13 @@ public class Homework {
                 //Задача №4
                 //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
 
+                //РЕШЕНИЕ
+
+                String hellowWorld = "Hello world!";
+
+                    System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
+
+
                 //Экспертный уровень
                 //Задача №1
                 //Создать метод маскирования персональных данных, который:
