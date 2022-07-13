@@ -1,5 +1,7 @@
 package Homework1;
 
+import java.util.Arrays;
+
 public class Homework {
 
     public static void main(String[] args) {
@@ -26,9 +28,13 @@ public class Homework {
                 // РЕШЕНИЕ
 
                 String newString = hi + world;
+
                 newString = newString.trim();
+
                 newString = newString + newLine;
+
                 String repeatNewtext = newString.repeat(3);
+
                 System.out.println(repeatNewtext);
 
 
@@ -42,8 +48,11 @@ public class Homework {
                 // РЕШЕНИЕ
 
                 double hight = 1.75;
+
                 int weight = 70;
+
                 double index = weight / (hight * hight);
+
                 System.out.println(index);
 
 
@@ -54,8 +63,20 @@ public class Homework {
                 //abcde
                 //abche
 
+                // РЕШЕНИЕ
 
-                //Продвинутый уровень
+                char [] letters = new char [] {'a','b','c','d','e'};
+
+                String stringFromChar1 = String.valueOf(letters);
+
+                letters[3] = 'h';
+
+                String stringFromChar2 = String.valueOf(letters);
+
+                System.out.println(stringFromChar1 + '\n' + stringFromChar2);
+
+
+        //Продвинутый уровень
                 //Задача №1
                 //Произвести преобразование текста "234" в число типа int и прибавить к этому числу длину строки "some_text"
 
