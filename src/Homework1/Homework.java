@@ -91,8 +91,19 @@ public class Homework {
                 int result = convert + someText.length();
 
                 System.out.println(result);
+
                 //Задача №2
                 //Посчитать (a+b)^2 = ?, при a=3, b=5
+
+                //РЕШЕНИЕ
+
+                int a = 3;
+
+                int b = 5;
+
+                int math = (a + b) * (a + b);
+
+                System.out.println(math);
 
                 //Задача №3
                 //Создать два массив чисел:
