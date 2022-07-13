@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Инициализация">
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решена первая задача">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Homework.java" afterDir="false" />
     </list>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657691161483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Решена первая задача">
+      <created>1657692925107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657692925107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Инициализация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инициализация" />
+    <MESSAGE value="Решена первая задача" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решена первая задача" />
   </component>
 </project>

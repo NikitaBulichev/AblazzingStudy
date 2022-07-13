@@ -22,7 +22,9 @@ public class Homework {
                 //Hello world!
                 //Hello world!
                 //Hello world!
-                //String newHi = hi.trim();
+
+                // РЕШЕНИЕ
+
                 String newString = hi + world;
                 newString = newString.trim();
                 newString = newString + newLine;
@@ -36,6 +38,14 @@ public class Homework {
                 //Произвести расчет индекса массы тела (вес) / (рост * рост) используя переменные, вывести на экран
                 //Пример результата вывода на экран:
                 //21.0345645
+
+                // РЕШЕНИЕ
+
+                double hight = 1.75;
+                int weight = 70;
+                double index = weight / (hight * hight);
+                System.out.println(index);
+
 
                 //Задача №3
                 //Создать из массива букв a,b,c,d,e, строку,вывести на экран , поменять в массиве 4 букву по счету на h,
