@@ -1,6 +1,10 @@
 package Homework1;
 
+import jdk.jshell.execution.Util;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class Homework {
 
@@ -116,6 +120,25 @@ public class Homework {
                 //1,2,5,7,10,2,3,2,17,15,2,6,10,119,150
                 //(первый массив - 1,2,5,7,10), (второй массив - 2,3,2,17,15),
                 //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
+
+                // РЕШЕНИЕ
+
+                int[] first = new int[] {1, 2, 5, 7, 10};
+
+                int[] second = new int[] {2, 3, 2, 17, 15};
+
+                int [] resultMath = new int[first.length];
+
+                int [] third = IntStream.concat(Arrays.stream(first),Arrays.stream(second)).toArray();
+
+                for (int i = 0; i < first.length; i ++) {
+
+                    resultMath[i] = first[i] * second [i];
+                }
+
+                System.out.println (Arrays.toString(third).replaceAll("\\s", "").replaceAll("\\[|\\]|", "") + Arrays.toString(resultMath).replaceAll("\\s", "").replaceAll("\\[|\\]|", ""));
+
+
 
                 //Задача №4
                 //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
