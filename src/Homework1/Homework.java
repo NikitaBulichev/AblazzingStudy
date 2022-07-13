@@ -4,13 +4,10 @@ public class Homework {
 
     public static void main(String[] args) {
 
-package lesson2;
-
 /**
  * Домашка №1
  */
-        public class Homework1 {
-            public static void main(String[] args) {
+
                 //Базовый уровень
                 //Задача №1
                 //Дано (переменные ниже менять нельзя)
@@ -25,6 +22,13 @@ package lesson2;
                 //Hello world!
                 //Hello world!
                 //Hello world!
+                //String newHi = hi.trim();
+                String newString = hi + world;
+                newString = newString.trim();
+                newString = newString + newLine;
+                String repeatNewtext = newString.repeat(3);
+                System.out.println(repeatNewtext);
+
 
 
                 //Задача №2
@@ -82,8 +86,8 @@ package lesson2;
 
                 //Используемые технологии: String.find, String.replaceAll, String.split, String.join, String.contains, String.substring
                 //Регулярные выражения, класс StringBuilder
-            }
-        }
+
+
 
     }
 }
