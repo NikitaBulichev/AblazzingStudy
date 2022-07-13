@@ -80,6 +80,17 @@ public class Homework {
                 //Задача №1
                 //Произвести преобразование текста "234" в число типа int и прибавить к этому числу длину строки "some_text"
 
+                //РЕШЕНИЕ
+
+                String text = "234";
+
+                String someText = "some_text";
+
+                int convert = Integer.parseInt(text);
+
+                int result = convert + someText.length();
+
+                System.out.println(result);
                 //Задача №2
                 //Посчитать (a+b)^2 = ?, при a=3, b=5
 
