@@ -131,6 +131,7 @@ public class Homework {
 
                 int [] third = IntStream.concat(Arrays.stream(first),Arrays.stream(second)).toArray();
 
+
                 for (int i = 0; i < first.length; i ++) {
 
                     resultMath[i] = first[i] * second [i];
@@ -138,6 +139,21 @@ public class Homework {
 
                 System.out.println (Arrays.toString(third).replaceAll("\\s", "").replaceAll("\\[|\\]|", "") + Arrays.toString(resultMath).replaceAll("\\s", "").replaceAll("\\[|\\]|", ""));
 
+                // РЕШЕНИЕ ЧЕРЕЗ ЦИКЛ
+
+                int [] resultMath1 = new int[15];
+
+                for (int i = 0; i< first.length; i++){
+
+                    resultMath1[i] = first[i];
+
+                    resultMath1[i+5] = second[i];
+
+                    resultMath1[i+10] = first [i] * second[i];
+
+                }
+
+                System.out.println(Arrays.toString(resultMath1));
 
 
                 //Задача №4
@@ -147,7 +163,8 @@ public class Homework {
 
                 String hellowWorld = "Hello world!";
 
-                    System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
+                // System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
+                System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
 
 
                 //Экспертный уровень
