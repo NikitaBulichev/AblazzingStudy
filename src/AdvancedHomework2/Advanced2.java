@@ -31,7 +31,8 @@ public class Advanced2 {
         // Например, дано: [1,1,1,1,1]
         // Ожидаемый результат: [0,1,0,1,0]
         // Подсказка: прочитай про операнд "%".
-        
+        // РЕШЕНИЕ
+
         int[] array = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         for (int i = 0; i < array.length; i++) {
@@ -40,5 +41,62 @@ public class Advanced2 {
             }
         }
         System.out.println(Arrays.toString(array));
+
+        // Задание №3:
+        // Дано:
+        boolean hasFuel = true;
+        boolean hasElectricsProblem = true;
+        boolean hasMotorProblem = false;
+        boolean hasTransmissionProblem = true;
+        boolean hasWheelsProblem = true;
+        int bill = 0;
+        int sale =0;
+        boolean sale10 = (hasElectricsProblem && hasMotorProblem)
+                || (hasElectricsProblem && hasTransmissionProblem)
+                || (hasElectricsProblem && hasWheelsProblem)
+                || (hasMotorProblem && hasTransmissionProblem)
+                || (hasMotorProblem && hasWheelsProblem)
+                || (hasTransmissionProblem && hasWheelsProblem);
+        boolean sale20 = hasTransmissionProblem && (hasMotorProblem || hasElectricsProblem);
+        // В автосервис приехала сломанная машина. Механики находят неисправность следующим способом:
+        // Если у машины нет бензина и ничего не сломано, то отдают машину владельцу и берут 1000 рублей за консультацию.
+        // Если у машины проблема с двигателем, то чинят и берут 10 000.
+        // Если у машины проблема с электрикой, то чинят и берут 5000.
+        // Если у машины проблема с коробкой передач, то чинят и берут 4000.
+        // Если у машины проблема с колесами, то чинят и берут 2000.
+        // Если две детали сломаны, то на общий счет идет скидка 10%.
+        // Если сломана коробка передач, и электрика или двигатель, то на общий счет скидка 20%.
+        // Если нет бензина и что-то сломано, то за консультацию денег не берут.
+        // Ситуации, что бензин есть и ничего не сломано - быть не может.
+        // Ожидаемый результат: выведен на экран счет клиенту.
+        // РЕШЕНИЕ
+
+
+        if (hasMotorProblem) {
+            bill = bill + 10000;
+        }
+        if (hasElectricsProblem) {
+            bill = bill + 5000;
+        }
+        if (hasTransmissionProblem){
+            bill = bill + 4000;
+        }
+        if (hasWheelsProblem){
+            bill =bill + 2000;
+        }
+        if (sale10) {
+            sale = 10;
+        }
+        if (sale20) {
+            sale = 20;
+        }
+        if (!hasFuel && ( !hasElectricsProblem && !hasMotorProblem && !hasTransmissionProblem && !hasWheelsProblem)) {
+            bill = 1000;
+        } else if (!hasFuel && ( hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem)) {
+            bill = 0;
+        }
+            bill = bill - (bill / 100 * sale);
+
+        System.out.println(bill);
     }
 }
