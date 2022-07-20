@@ -123,9 +123,9 @@ public class Homework {
 
                 // РЕШЕНИЕ
 
-                int[] first = new int[] {1, 2, 5, 7, 10};
+                int [] first = new int[] {1, 2, 5, 7, 10};
 
-                int[] second = new int[] {2, 3, 2, 17, 15};
+                int [] second = new int[] {2, 3, 2, 17, 15};
 
                 int [] resultMath = new int[first.length];
 
@@ -157,6 +157,7 @@ public class Homework {
 
 
                 //Задача №4
+
                 //В слове "Hello world!" заменить l на r, сделать все буквы заглавными, выбрать первые 8 символов, вывести на экран
 
                 //РЕШЕНИЕ
@@ -164,7 +165,8 @@ public class Homework {
                 String hellowWorld = "Hello world!";
 
                 // System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
-                System.out.println(hellowWorld.replaceAll("rld!", "").replaceAll("l","r").toUpperCase());
+
+                System.out.println(hellowWorld.substring(0, 8).replaceAll("l","r").toUpperCase());
 
 
                 //Экспертный уровень

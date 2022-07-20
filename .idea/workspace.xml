@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решен advanced 4">
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решены три задачи">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework2/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework1/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework2/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Homework2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +27,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="zyzd9b65" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BsNIBPx9tq7rptH6AOZrYcJjxw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,10 +44,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Homework2">
     <configuration name="Homework" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Homework1.Homework" />
       <module name="AblazzingStudy" />
@@ -46,6 +56,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Homework2.Homework2" />
+      <module name="AblazzingStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="AblazzingStudy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Homework" />
+      <item itemvalue="Application.Homework2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +141,35 @@
       <option name="project" value="LOCAL" />
       <updated>1657701659513</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавил еще решение advanced 3">
+      <created>1657870689195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657870689195</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Инициализация">
+      <created>1658333325074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658333325075</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Решены две задачи">
+      <created>1658334086671</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658334086671</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Решены три задачи">
+      <created>1658335483315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658335483315</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +184,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Инициализация" />
     <MESSAGE value="Решена первая задача" />
     <MESSAGE value="Решена вторая задача" />
     <MESSAGE value="Решена третья задача" />
@@ -135,6 +191,14 @@
     <MESSAGE value="Решен advanced 2" />
     <MESSAGE value="Решен advanced 3" />
     <MESSAGE value="Решен advanced 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решен advanced 4" />
+    <MESSAGE value="Добавил еще решение advanced 3" />
+    <MESSAGE value="Инициализация" />
+    <MESSAGE value="Решены две задачи" />
+    <MESSAGE value="Решены три задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решены три задачи" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
