@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решена вторая задача">
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решена третья задача (Точно решена)">
+      <change afterPath="$PROJECT_DIR$/src/AdvancedHomework2/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdvancedHomework2/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdvancedHomework2/Advanced2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvancedHomework2/Advanced2.java" afterDir="false" />
     </list>
@@ -228,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658337683645</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Решена третья задача">
+      <created>1658342175633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342175633</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Решена третья задача (Точно решена)">
+      <created>1658342409724</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658342409724</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +260,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Решена третья задача" />
     <MESSAGE value="Решен advanced 1" />
     <MESSAGE value="Решен advanced 2" />
     <MESSAGE value="Решен advanced 3" />
@@ -257,7 +273,9 @@
     <MESSAGE value="Инциализация" />
     <MESSAGE value="Решена первая задача" />
     <MESSAGE value="Решена вторая задача" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решена вторая задача" />
+    <MESSAGE value="Решена третья задача" />
+    <MESSAGE value="Решена третья задача (Точно решена)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решена третья задача (Точно решена)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
