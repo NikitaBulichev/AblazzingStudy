@@ -45,7 +45,7 @@ public class Homework2 {
         // Дано:
         boolean chicken = false; // Курица
         boolean vegetables = false; // Овощи
-        boolean sour = true;  // Соус
+        boolean sour = false;  // Соус
         boolean toast = true; // Гренки
         boolean sausage = false; // Колбаса
         boolean eggs = true;  // Яйца
@@ -63,11 +63,12 @@ public class Homework2 {
 
             System.out.println("Будем есть Цезарь");
 
-        } else if (vegetables && chicken || sausage && eggs) {
+        } else if (vegetables && (chicken || sausage) && eggs) {
 
             System.out.println("Будет Оливье");
 
         } else if (vegetables) {
+
             System.out.println("Будет Овощной");
 
         } else System.out.println("Лижи ложку");
@@ -80,7 +81,7 @@ public class Homework2 {
 
         // РЕШЕНИЕ
 
-        Cat mrWhite = new Cat("White", 2);
+        Cat mrCat = new Cat("White", 2);
 
         Dog mrDog = new Dog("Green", 7);
     }

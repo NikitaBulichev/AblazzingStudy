@@ -18,7 +18,7 @@ public class Advanced2 {
         // РЕШЕНИЕ
 
         int count = 0;
-        if (increment < 0) {
+        if (increment <= 0) {
         } else {
             while (result < 1000000) {
                 count++;
@@ -117,13 +117,13 @@ public class Advanced2 {
 
         Worker igor = new Worker("Игорь");
 
-        vasya.takeCargo();
+        vasya.takeCargo(); // Берет водку
         anton.takeCargo();
         igor.takeCargo();
-        System.out.println(vasya.getCount());
+        System.out.println(vasya.getCount()); // Личный каунтер
         System.out.println(anton.getCount());
         System.out.println(igor.getCount());
-        System.out.println(Worker.getCountAll());
-        System.out.println(Stock.vodka);
+        System.out.println(Worker.getCountAll()); // Общий каунтер
+        System.out.println(Stock.vodka);  // Остаток на складе
     }
 }
