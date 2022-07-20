@@ -45,10 +45,10 @@ public class Advanced2 {
         // Задание №3:
         // Дано:
         boolean hasFuel = true;
-        boolean hasElectricsProblem = true;
+        boolean hasElectricsProblem = false;
         boolean hasMotorProblem = false;
-        boolean hasTransmissionProblem = true;
-        boolean hasWheelsProblem = true;
+        boolean hasTransmissionProblem = false;
+        boolean hasWheelsProblem = false;
         int bill = 0;
         int sale =0;
         boolean sale10 = (hasElectricsProblem && hasMotorProblem)
@@ -94,9 +94,12 @@ public class Advanced2 {
             bill = 1000;
         } else if (!hasFuel && ( hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem)) {
             bill = 0;
+            System.out.println("Бесплатно");
         }
             bill = bill - (bill / 100 * sale);
 
-        System.out.println(bill);
+        if (bill > 0) {
+            System.out.println(bill);
+        }
     }
 }
