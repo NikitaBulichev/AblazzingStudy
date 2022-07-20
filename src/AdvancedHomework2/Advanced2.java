@@ -18,7 +18,7 @@ public class Advanced2 {
         // РЕШЕНИЕ
 
         int count = 0;
-        if (result < 0) {
+        if (increment < 0) {
         } else {
             while (result < 1000000) {
                 count++;
