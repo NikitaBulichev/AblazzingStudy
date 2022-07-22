@@ -12,7 +12,7 @@ public class Homework2 {
         // РЕШЕНИЕ
 
         for (int i = 1; i < 101; i++) {
-            System.out.println(i + "a");
+            System.out.print(i + "a ");
         }
 
 
