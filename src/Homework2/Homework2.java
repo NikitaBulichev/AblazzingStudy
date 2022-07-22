@@ -28,17 +28,17 @@ public class Homework2 {
 
         if (ageChildren < 7){
 
-            System.out.println("Пошел в сад");
+            System.out.println("\n" + "Пошел в сад");
 
         } else if (ageChildren < 11){
 
-            System.out.println("Пошел в младшую школу");
+            System.out.println("\n" + "Пошел в младшую школу");
 
         } else if (ageChildren < 17) {
 
-            System.out.println("Пошел в среднюю школу");
+            System.out.println("\n" + "Пошел в среднюю школу");
 
-        } else System.out.println("Пошел в университет");
+        } else System.out.println("\n" + "Пошел в университет");
 
 
         // Задание №3
