@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Легкие правки и комменты 2.0">
-      <change beforePath="$PROJECT_DIR$/src/Homework2/Homework2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Homework2.java" afterDir="false" />
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Легкие правки и комменты 3.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Homework2">
+  <component name="RunManager" selected="Application.AdvancedHomework2.Advanced2">
     <configuration name="AdvancedHomework2.Advanced2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658503089892</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Легкие правки и комменты 3.0">
+      <created>1658571181870</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1658571181870</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +317,8 @@
     <MESSAGE value="Поправил вторую" />
     <MESSAGE value="Легкие правки и комменты" />
     <MESSAGE value="Легкие правки и комменты 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Легкие правки и комменты 2.0" />
+    <MESSAGE value="Легкие правки и комменты 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Легкие правки и комменты 3.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
