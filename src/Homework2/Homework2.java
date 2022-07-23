@@ -59,7 +59,7 @@ public class Homework2 {
         // Проверьте работоспособность условий, через изменение значения переменных.
         // РЕШЕНИЕ
 
-        if (chicken && vegetables && sour && toast && sausage && eggs){
+        if (chicken && vegetables && sour && toast){
 
             System.out.println("Будем есть Цезарь");
 
