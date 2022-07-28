@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Инициализация">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/Vaz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework3/my_firs_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Решены две задачи">
+      <change afterPath="$PROJECT_DIR$/src/Homework3/FinancialRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework3/report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework3/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/Homework3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658985783858</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Решены две задачи">
+      <created>1658994243666</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658994243666</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +346,6 @@
     <MESSAGE value="Решен advanced 3" />
     <MESSAGE value="Решен advanced 4" />
     <MESSAGE value="Добавил еще решение advanced 3" />
-    <MESSAGE value="Решены две задачи" />
     <MESSAGE value="Решены три задачи" />
     <MESSAGE value="Решены четыре задачи" />
     <MESSAGE value="Убрал коммент в первой" />
@@ -359,7 +360,8 @@
     <MESSAGE value="Легкие правки и комменты 2.0" />
     <MESSAGE value="Легкие правки и комменты 3.0" />
     <MESSAGE value="Инициализация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Инициализация" />
+    <MESSAGE value="Решены две задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решены две задачи" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

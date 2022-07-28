@@ -65,8 +65,33 @@ public class Homework3 {
            while (((line = bufferedReader.readLine()) != null)){
              result = result.concat(line + "");
            }
-           System.out.print(line);
+           System.out.print(result);
        }
+
+
+
+        //Задача №3
+        //Необходимо:
+        // 1. Создать класс Financial record, с двумя атрибутами: incomes, outcomes (доходы, расходы)
+        // 2. Создать в этом классе геттеры, сеттеры и конструктор на все атрибуты
+        // 3. Создать объект этого класса прямо здесь (class Homework3, метод main), с доходами 500, расходами 300
+        // 4. Записать в файл "report.txt" данные из объекта класса.
+        // Ожидаемый результат: в файле report.txt - одна строка: доходы = 500, расходы = 300
+
+        // РЕШЕНИЕ
+
+        FinancialRecord record = new FinancialRecord(500, 300);
+
+       String reportPath = "D:\\Programming\\Java\\AblazzingStudy\\src\\Homework3\\report.txt";
+
+       String reportIncomes = String.valueOf(record.getIncomes());
+       String reportOutcomes = String.valueOf(record.getOutcomes());
+
+        FileWriter fileWriter1 = new FileWriter(reportPath);
+
+        fileWriter1.write("Доходы = " + reportIncomes + ", расходы = " + reportOutcomes);
+
+        fileWriter1.close();
 
 
 
