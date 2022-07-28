@@ -21,13 +21,13 @@ public class Homework3 {
 
         //РЕШЕНИЕ
 
-        Toyota camry = new Toyota("Camry");
+        Toyota camry = new Toyota();
 
-        Toyota prado = new Toyota("Prado");
+        Toyota prado = new Toyota();
 
-        Vaz samara = new Vaz("Samara");
+        Vaz samara = new Vaz();
 
-        Vaz bogdan = new Vaz("Bogdan");
+        Vaz bogdan = new Vaz();
 
         camry.musicOn();
 
@@ -47,8 +47,6 @@ public class Homework3 {
 
         String filePath = "D:\\Programming\\Java\\AblazzingStudy\\src\\Homework3\\my_firs_file.txt";
 
-
-
         FileWriter fileWriter = new FileWriter(filePath);
 
         fileWriter.write("Моя бабушка \n" + "читает газету жизнь");
@@ -61,13 +59,12 @@ public class Homework3 {
 
         String result = "";
 
-       try (BufferedReader bufferedReader = new BufferedReader(fileReader)){
-           while (((line = bufferedReader.readLine()) != null)){
-             result = result.concat(line + "");
-           }
-           System.out.print(result);
-       }
-
+        try (BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+            while (((line = bufferedReader.readLine()) != null)) {
+                result = result.concat(line + "");
+            }
+            System.out.print(result);
+        }
 
 
         //Задача №3
@@ -82,18 +79,38 @@ public class Homework3 {
 
         FinancialRecord record = new FinancialRecord(500, 300);
 
-       String reportPath = "D:\\Programming\\Java\\AblazzingStudy\\src\\Homework3\\report.txt";
-
-       String reportIncomes = String.valueOf(record.getIncomes());
-       String reportOutcomes = String.valueOf(record.getOutcomes());
+        String reportPath = "D:\\Programming\\Java\\AblazzingStudy\\src\\Homework3\\report.txt";
 
         FileWriter fileWriter1 = new FileWriter(reportPath);
 
-        fileWriter1.write("Доходы = " + reportIncomes + ", расходы = " + reportOutcomes);
+        fileWriter1.write("доходы = " + record.getIncomes() + ", расходы = " + record.getOutcomes());
 
         fileWriter1.close();
 
+        //Продвинутый уровень
+        //Задача №1
+        // Сделать задачу №1 (1 и 2 пункты) из базовой.
+        // 1. Создать класс CarFactory, у которого есть два статических метода: создать жигули, создать toyota.
+        // 2. Создать 20 тойот, 20 жигулей с помощью CarFactory, положить их в один массив.
+        // 3. Пройтись по массиву, проверить к какому классу принадлежит машина, привести тип к классу машины
+        // и вызвать характерные для нее методы.
 
+        //РЕШЕНИЕ
 
+        Car[] factoryResult = new Car[40];
+
+        for (int i = 0; i < 40; i++) {
+
+            if (i % 2 == 0) {
+                factoryResult[i] = CarFactory.createVaz();
+            } else factoryResult[i] = CarFactory.createToyota();
+        }
+        for (Car car : factoryResult) {
+            if (car instanceof Vaz) {
+                ((Vaz) car).crash();
+            } else if (car instanceof Toyota) {
+                ((Toyota) car).musicOn();
+            }
+        }
     }
 }

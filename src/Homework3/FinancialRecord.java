@@ -25,4 +25,7 @@ public class FinancialRecord {
     public void setOutcomes(int outcomes) {
         this.outcomes = outcomes;
     }
+    public String toString() {
+        return this.incomes + ":" + this.outcomes;
+    }
 }
