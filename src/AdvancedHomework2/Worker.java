@@ -3,9 +3,15 @@ package AdvancedHomework2;
 public class Worker {
 
     private String name;
+
+    private Stock stock;
     private int count = 0;  // Заслуги конкретного рабочего по порче водки
 
     private static int countAll = 0; // Заслуги отдела по порче водки
+
+    public Worker(Stock stock) {
+        this.stock = stock;
+    }
 
     public Worker(String name) {
         this.name = name;
@@ -38,10 +44,15 @@ public class Worker {
     private static void setCountAll(int countAll) {
         Worker.countAll = countAll;
     }
-    public void takeCargo(){  // Берет водку со склада и работает работу
-        Stock.cargoOut();
-        count++;
-        countAll++;
-        System.out.println("Ура я испортил водку!!");
+
+    public void takeCargo() {       // Берет водку со склада и работает работу
+        if (Stock.vodka > 0) {
+            Stock.cargoOut();
+            count++;
+            countAll++;
+            System.out.println("Ура я испортил водку!!");
+        } else {
+            System.out.println("Водки на складе нет");
+        }
     }
 }

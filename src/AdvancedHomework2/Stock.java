@@ -2,7 +2,7 @@ package AdvancedHomework2;
 
 public class Stock {
 
-   static int vodka = 100; // Водки на складе
+  public static int vodka = 0; // Водки на складе
 
     public int getVodka() {
         return vodka;
@@ -17,5 +17,9 @@ public class Stock {
     }
     public static void cargoOut(){  // Рабочий забрал водку
         vodka--;
+    }
+
+    public static void cargoIn(){ // Положить 100 водки на склад
+        vodka += 100;
     }
 }

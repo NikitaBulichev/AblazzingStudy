@@ -111,6 +111,10 @@ public class Advanced2 {
         // У склада есть только одна позиция - Водка.
         //РЕШЕНИЕ
 
+        Stock vodoshnaya = new Stock(0);
+
+        Stock.cargoIn(); // Привезли 100 водки
+
         Worker vasya = new Worker("Вася");
 
         Worker anton = new Worker("Антон");
