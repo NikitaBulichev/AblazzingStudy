@@ -1,6 +1,7 @@
 package Homework4;
 
 import Homework4.Advanced1.*;
+import Homework4.Advanced2.*;
 import Homework4.Base.*;
 
 public class Homework4 {
@@ -59,7 +60,7 @@ public class Homework4 {
         // РЕШЕНИЕ
 
         Blooming[] bloomings = {new Rose(), new Fern()};
-        Smelling[] smellings = {new Rose(), new Pine(), new Spruce()};
+        Smelling[] smellings = {new Rose(), new Pine(true), new Spruce(true)};
 
         for (Blooming blooming: bloomings) {
 
@@ -70,5 +71,38 @@ public class Homework4 {
 
             smelling.smell();
         }
+
+
+        //Задача №2
+        //2. Создать следующую структуру из классов и интерфейсов
+        // магазин (обладает работниками)
+        // работник (обладает часами - (часы одни))
+        // часы (умеют тикать, если сломаны выкидывают ошибку WatchBrokenError)
+        // Бренд (обладает массивом магазинов)
+        // Создать бренд, положить в него два магазина, в каждом магазине будет по работнику,
+        // у каждого работника по часам. У одного работника часы сломаны, у второго нет.
+        // После создания бренда, вытащить из него все часы и вызвать у всех часов метод тикать,
+        // обработать ошибку сломанных часов.
+        // Ожидание вывода на экран:
+        // Часы тикают
+        // Ошибка: Часы сломались.
+
+        //РЕШЕНИЕ
+
+        Worker worker1 = new Worker (new Watch(true));
+        Worker worker2 = new Worker (new Watch(false));
+        Shop shop1 = new Shop (new Worker[]{worker1});
+        Shop shop2 = new Shop (new Worker[]{worker2});
+        Brand brand = new Brand (new Shop[]{shop1, shop2});
+        for (Shop shop : brand.getBrandsShop()) {
+            for (Worker worker : shop.getShopsWorker()) {
+                try {
+                    worker.getWorkerHasWatch().tick();
+                } catch (WatchBroken e) {
+                    System.out.println("Ошибка: " + e.getError());
+                }
+            }
+        }
+
     }
 }

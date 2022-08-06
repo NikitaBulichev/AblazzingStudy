@@ -1,7 +1,9 @@
 package Homework4.Advanced1;
 
 abstract class Trees {
-    void hasCones (){
-        System.out.println("Есть шишки");
+   final private boolean hasCones;
+
+    protected Trees(boolean hasCones) {
+        this.hasCones = hasCones;
     }
 }
