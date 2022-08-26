@@ -5,45 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39629104-75bc-490a-9b44-5885e384240e" name="Changes" comment="Task 1 сompleted">
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Dolphin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/animals/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/skills/Bitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/skills/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task1/skills/Swimable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task2/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/homework1/task2/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AblazzingStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AblazzingStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdvancedHomework2/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvancedHomework2/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdvancedHomework2/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvancedHomework2/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework1/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework2/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework2/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/FinancialRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/FinancialRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/Toyota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/Toyota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework3/Vaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework3/Vaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced1/Blooming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced1/Blooming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced1/Smelling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced1/Smelling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced1/Trees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced1/Trees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced2/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced2/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced2/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced2/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced2/WatchBroken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced2/WatchBroken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Advanced2/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Advanced2/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Base/FlyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Base/FlyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework4/Base/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework4/Base/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module2/homework1/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +47,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,7 +61,7 @@
       <recent name="D:\Programming\Java\AblazzingStudy\src\Homework3\Resourses" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.module2.homework1.task1.main">
+  <component name="RunManager" selected="Application.module2.homework1.task2.main">
     <configuration name="AdvancedHomework2.Advanced2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -183,10 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="module2.homework1.task2.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="module2.homework1.task2.main" />
+      <module name="AblazzingStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module2.homework1.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Homework" />
       <item itemvalue="Application.Homework2" />
       <item itemvalue="Application.Homework3" />
+      <item itemvalue="Application.module2.homework1.task2.main" />
       <item itemvalue="Application.module2.homework1.task1.main" />
       <item itemvalue="Application.Homework4" />
       <item itemvalue="Application.Test" />
@@ -194,6 +174,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.module2.homework1.task2.main" />
         <item itemvalue="Application.module2.homework1.task1.main" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.Test" />
@@ -469,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661500799012</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Task 1 сompleted">
+      <created>1661504945620</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1661504945620</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
