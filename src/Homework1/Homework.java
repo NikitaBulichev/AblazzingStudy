@@ -137,7 +137,10 @@ public class Homework {
                     resultMath[i] = first[i] * second [i];
                 }
 
-                System.out.println (Arrays.toString(third).replaceAll("\\s", "").replaceAll("\\[|\\]|", "") + Arrays.toString(resultMath).replaceAll("\\s", "").replaceAll("\\[|\\]|", ""));
+                System.out.println (Arrays.toString(third).replaceAll("\\s", "")
+                        .replaceAll("\\[|\\]|", "") + Arrays.toString(resultMath)
+                        .replaceAll("\\s", "")
+                        .replaceAll("\\[|\\]|", ""));
 
                 // РЕШЕНИЕ ЧЕРЕЗ ЦИКЛ
 

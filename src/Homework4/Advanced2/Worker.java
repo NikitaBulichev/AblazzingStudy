@@ -11,4 +11,5 @@ public class Worker {
     public Watch getWorkerHasWatch() {
         return workerHasWatch;
     }
+
 }
