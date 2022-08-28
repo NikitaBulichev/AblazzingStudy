@@ -3,7 +3,6 @@ import module2.homework1.task1.animals.*;
 import module2.homework1.task1.skills.Bitable;
 import module2.homework1.task1.skills.Flyable;
 import module2.homework1.task1.skills.Swimable;
-import module2.homework1.task1.animals.*;
 
 public class main {
     public static void main(String[] args) {
