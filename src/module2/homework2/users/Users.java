@@ -1,4 +1,4 @@
-package module2.homework2.task1.users;
+package module2.homework2.users;
 
 import java.util.List;
 
