@@ -2,6 +2,7 @@ package module2.homework2.task1;
 
 import module2.homework2.task1.users.Users;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -46,9 +47,16 @@ public class main {
                         .reduce((a, b) -> Integer.sum(a, b))
                         .ifPresentOrElse(e -> System.out.println(e), () -> System.out.println(0));
 
+        List<List<Integer>> lists = List.of(List.of(1, 2), List.of(3, 4, 5), List.of());
+        //Задача №2
+        // 1. Отсортировать список lists так, чтобы сначала были самые большие списки по размеру
+        // 2. Вывести на экран все элементы
+        // Ожидаемый результат: 3,4,5,1,2
 
-
-
+        lists.stream()
+                .sorted((a, b) -> (a.size() - b.size()) * -1)
+                .flatMap(integers1 -> integers1.stream())
+                .forEach(e -> System.out.println(e));
 
     }
 }
