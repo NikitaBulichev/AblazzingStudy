@@ -2,6 +2,7 @@ package module2.homework2;
 
 import module2.homework2.users.Users;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -36,15 +37,15 @@ public class main {
         integers.stream()
                 .filter(e -> e > 4)
                 .distinct()
-                .map(e -> new Users(e))
+                .map(Users::new)
                 .peek(users -> users.setListOfNumbers((
                         Stream.generate(() -> random.nextInt(10))
                                 .limit(users.getCount())
                                 .collect(Collectors.toList()))))
                         .flatMap(user -> user.getListOfNumbers().stream())
                         .map(e -> e * 10)
-                        .reduce((a, b) -> Integer.sum(a, b))
-                        .ifPresentOrElse(e -> System.out.println(e), () -> System.out.println(0));
+                        .reduce(Integer::sum)
+                        .ifPresentOrElse(System.out::println, () -> System.out.println(0));
 
         List<List<Integer>> lists = List.of(List.of(1, 2), List.of(3, 4, 5), List.of());
         //Задача №2
@@ -52,17 +53,19 @@ public class main {
         // 2. Вывести на экран все элементы
         // Ожидаемый результат: 3,4,5,1,2
 
-        lists.stream()
-                .sorted((a, b) -> (a.size() - b.size()) * -1)
-                .flatMap(integers1 -> integers1.stream())
-                .forEach(e -> System.out.println(e));
+        List<Integer> sortedList = lists.stream()
+                .sorted((a, b) -> (b.size() - a.size()))
+                .flatMap(Collection::stream)
+//              .forEach(x -> System.out.println(x))
+                .collect(Collectors.toList());
+        System.out.println(sortedList);
 
         //Задача №3
         // 1. Узнать, есть ли в lists хотя бы один список, который содержит сумму всех элементов вложенного листа
         // равную 12
 
         boolean match = lists.stream()
-                .map(e -> e.stream().reduce((a,b) -> a + b).orElse(0))
+                .map(e -> e.stream().reduce(Integer::sum).orElse(0))
                 .anyMatch(e -> e == 12);
 
         System.out.println(match);
